@@ -46,6 +46,9 @@
   border-radius: 10px;
   transition :all 10s;
 }
+h1 {
+  background-color:orangered ; 
+}
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {

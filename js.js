@@ -48,16 +48,39 @@ function showCoords(event) {
      var y_position = event.clientY;
      var coor = "X coords: " + x_position + ", Y coords: " + y_position;
    
-     console.log(coor);
+     /*console.log(coor);
 console.log("ok") ; 
-
+*/
 let width_taille_page = window.innerWidth;
 let height_taille_page = window.innerHeight;
 
 
 
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+// expected output: "The word "fox" is in the sentence"
+
+
+ 
+
+ 
 //document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
-     
+    
 var ok = new Information("model/class/php/showCoords.php");  
 // création de la classe 
 ok.add("showCoords_","1"); // ajout de l'information pour lenvoi 
@@ -69,6 +92,10 @@ ok.add("height_taille_page", height_taille_page); // ajout d'une deuxieme inform
 
 console.log(ok.info()); // demande l'information dans le tableau
 ok.push(); // envoie l'information au code pkp 
+ 
+ 
+ 
+ 
  
 
 

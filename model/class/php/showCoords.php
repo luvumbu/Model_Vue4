@@ -1,6 +1,6 @@
 <?php
 header("Access-Control-Allow-Origin: *");
-
+// fichier pour ajouter les mouvement de la sourie de chaque utilisateur
 $servername = "localhost";
 $x_position =$_POST["x_position"] ;
 $y_position =$_POST["y_position"] ;

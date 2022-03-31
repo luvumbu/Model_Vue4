@@ -63,7 +63,6 @@
 <!--
   Besoin de vue Js pour s'avoir le comportement des utilisateurs 
 -->
-<script src="model/class/js/bdd_exe_test.js"></script>
 <?php 
 if($config_==false){ 
 // si la page de connexion n'existe pas elle afiche le formulaire de connexion 
