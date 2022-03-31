@@ -7,6 +7,7 @@ public $username ;
 public $password ; 
 public $dbname ;
 public $boolean_connection ;
+// variable de construction
   function __construct(
   $servername,
   $username,
@@ -19,7 +20,7 @@ public $boolean_connection ;
     $this->exe_resul = false;
   }
 
-function exe(){
+function exe(){ // Si la connexion est ok return true si non false
     try {
         $this->conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
         // set the PDO error mode to exception
@@ -32,6 +33,7 @@ function exe(){
        $this->exe_resul = false;
         return false; 
       }
+      
 }
 function set_action($sql){
  
@@ -51,8 +53,7 @@ if ($conn->connect_error) {
     function get_exe_resul(){
         return $this->exe_resul ; 
     }
-} 
- 
+}  
 
 
 // exemple d'execution
