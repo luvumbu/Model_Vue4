@@ -40,10 +40,8 @@ $execution_formulaire_php = new Bdd_class(
       adresse_ip VARCHAR(30) NOT NULL,
       click VARCHAR(30) NOT NULL,
       x_position VARCHAR(30) NOT NULL,
-
       width_taille_page VARCHAR(30) NOT NULL,
       height_taille_page VARCHAR(30) NOT NULL,
-
       y_position VARCHAR(50),
       reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
       )");  
