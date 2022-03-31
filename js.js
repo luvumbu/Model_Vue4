@@ -54,31 +54,8 @@ console.log("ok") ;
 let width_taille_page = window.innerWidth;
 let height_taille_page = window.innerHeight;
 
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
-
-
- 
-
  
 // expected output: "The word "fox" is in the sentence"
-
-
- 
-
- 
 //document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
     
 var ok = new Information("model/class/php/showCoords.php");  
@@ -92,10 +69,6 @@ ok.add("height_taille_page", height_taille_page); // ajout d'une deuxieme inform
 
 console.log(ok.info()); // demande l'information dans le tableau
 ok.push(); // envoie l'information au code pkp 
- 
- 
- 
- 
  
 
 
