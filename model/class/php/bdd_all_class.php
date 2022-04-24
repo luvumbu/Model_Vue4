@@ -500,6 +500,11 @@ $apple->set_all_exe('DELETE FROM `aa1` WHERE `aa1`.`id` = 1') ;
 //$apple->select_info('SELECT * FROM `info_all` WHERE 1 LIMIT 100000') ;
 
 
+
+
+
+ 
+
 for($i = 0 ; $i<$apple->get_count() ; $i++){
 
 

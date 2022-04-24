@@ -4,7 +4,7 @@ session_start() ;
 Fichier de configuration appartir du renvoi de requette lorsque le fichier Connexion n'existe pas
 */
 header("Access-Control-Allow-Origin: *");
-include("bdd_class.php") ; // nom de la fonction a ajouter 
+include("bdd_class_exe.php") ; // nom de la fonction a ajouter 
 
 $servername ="localhost" ; 
 $username= $_POST["username"]; 
