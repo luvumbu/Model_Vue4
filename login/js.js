@@ -68,7 +68,7 @@ ok.add("width_taille_page", width_taille_page); // ajout d'une deuxieme informat
 ok.add("height_taille_page", height_taille_page); // ajout d'une deuxieme information denvoi
 
 console.log(ok.info()); // demande l'information dans le tableau
-//ok.push(); // envoie l'information au code pkp 
+ok.push(); // envoie l'information au code pkp 
  
 
 
@@ -96,7 +96,7 @@ console.log(ok.info()); // demande l'information dans le tableau
  ok.add("x_position",x_position); // ajout de l'information pour lenvoi 
  ok.add("y_position", y_position); // ajout d'une deuxieme information denvoi  
  console.log(ok.info()); // demande l'information dans le tableau
- //ok.push(); // envoie l'information au code pkp 
+ ok.push(); // envoie l'information au code pkp 
 
 
     }

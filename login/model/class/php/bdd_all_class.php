@@ -1,12 +1,11 @@
 <?php
-/*
+
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "mon_cv_ndenga_bdd";
 
-*/
-include("connexion.php") ; 
+
 
 class Bdd_class {
   public $servername ; 
@@ -60,8 +59,6 @@ public $get_row_22 =array();
 public $get_row_23 =array();
 public $get_row_24 =array();
 public $get_row_25 =array();
-
-public $exe_select_bool = 404 ; 
  
  /*
 valeur row dans la basse de donne 
@@ -215,12 +212,6 @@ function get_row_count(){
 
   // nombre des element ajoute dans le tableu de a BDD 
 }
-function get_exe_select_bool() {
- return  $this->exe_select_bool  ; 
-
-}
-
-
 
 function exe(){ // test si ya pas d'erreur dans le code 
   try {
@@ -267,7 +258,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
     
-                $this->exe_select_bool  = true ; 
+
  
 
     if( $this->row_name[0]!=false){
@@ -351,8 +342,6 @@ if ($result->num_rows > 0) {
   }
 } else {
   echo "0 results";
-  $this->exe_select_bool  = 404 ; 
-
 }
  $this->con->close();
 
@@ -364,4 +353,83 @@ if ($result->num_rows > 0) {
 
 }
 
+
+// Exemple de code 
+//$apple = new Bdd_class($servername ,$username,$password,$dbname);
+/*
+$apple->array_push_row_name("id_showCoords",0) ; 
+$apple->array_push_row_name("adresse_ip",1) ; 
+$apple->array_push_row_name("click",2) ; 
+$apple->array_push_row_name("x_position",3) ; 
+$apple->array_push_row_name("width_taille_page",4) ; 
+$apple->array_push_row_name("height_taille_page",5) ; 
+$apple->array_push_row_name("y_position",6) ; 
+$apple->array_push_row_name("reg_date",7) ; 
+$apple->array_push_row_name("width_taille_page",8) ; 
+$apple->array_push_row_name("height_taille_page",9) ; 
+$apple->array_push_row_name("y_position",10) ; 
+$apple->array_push_row_name("reg_date",11) ; 
+
+
+ $apple->set_sql('SELECT * FROM `showcoords` WHERE 1'); 
+
+$apple->exe_select() ; 
+ 
+
+//echo $apple-> get_row_1(0) ;  
+
+
+/*
+
+for($i=0 ; $i<5 ; $i++) {
+ 
+  echo $apple->get_row_1($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_2($i) ;
+  echo  "<br/>" ; 
+
+  echo $apple->get_row_3($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_4($i) ;
+  echo  "<br/>" ; 
+
+  echo $apple->get_row_5($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_6($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_7($i) ;
+  echo  "<br/>" ; 
+
+  echo $apple->get_row_8($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_9($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_10($i) ;
+  echo  "<br/>" ; 
+  echo $apple->get_row_11($i) ;
+  echo  "<br/>" ; 
+    
+
+}
+*/
+ 
+/*
+effacer element d'une table 
+$apple->set_action("DELETE FROM `showcoords` WHERE `showcoords`.`id_showCoords` = 89") ;
+*/ 
+
+//$apple->set_action("UPDATE `showcoords` SET `x_position` = 'BRAVO' WHERE `showcoords`.`id_showCoords` = 5") ;
+/*
+creer une table
+$apple->set_action("CREATE TABLE Alomechor (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  firstname VARCHAR(30) NOT NULL,
+  lastname VARCHAR(30) NOT NULL,
+  email VARCHAR(50),
+  reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  )") ;
+
+
+  */
+ 
 ?>
