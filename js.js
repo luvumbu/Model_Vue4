@@ -166,3 +166,35 @@ console.log(ok.info()); // demande l'information dans le tableau
   
 
  }
+
+
+ var  var_action_header_0 = "connexion" ;
+    function action_header_0 (_this) {
+        var_action_header_0 = this.title ; 
+        console.log(_this.title) ; 
+        Ajax("app_section","pages/"+_this.title+".php");
+        //redirection vers une page avec le meme titre qui fini par lextension php 
+    }
+  //  Ajax("app_section","pages/Connexion.php");
+
+ 
+ function submit_btn() {
+  /*
+  var email = document.getElementById("email").value; 
+  var password = document.getElementById("password").value;
+  console.log( email+
+password) ;
+*/ 
+var mail_information_user =  document.getElementById("mail_information_user").value ;
+var password_information_user =  document.getElementById("password_information_user").value ;
+var ok = new Information("exe/exe_form.php");  
+ok.add("mail_information_user",mail_information_user); // ajout de l'information pour lenvoi 
+ok.add("password_information_user", password_information_user); // ajout d'une deuxieme information denvoi
+ok.add("var_action_header_0", var_action_header_0); // ajout d'une deuxieme information denvoi
+ok.push(); // envoie l'information au code pkp 
+console.log(ok.info()); // demande l'information dans le tableau
+const myTimeout = setTimeout(myGreeting, 250);
+function myGreeting() {
+  location.reload();
+}
+}
