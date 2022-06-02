@@ -1,9 +1,9 @@
 {  
     "header1":
     {
-       "title":"header_element", "id":"" ,"className":"","innerhtml":"",
+       "title":"header_element", "id":"header_id" ,"className":"democlass_deux_class","innerhtml":"text default",
        "setattribute":[
-        ["id", ""],
+        ["id", "header_idtabbbbs"],
         ["class", ""],
         ["onmousedown", ""],
         ["onmouseenter", ""],
@@ -16,15 +16,41 @@
         ] , 
         "elementchildNodes":[
   
-          ["","","",""],         
-          ["","","",""],
-          ["","","",""],
-          ["","","",""],
-          ["","","",""],
-          ["","","",""],
-          ["","","",""],
-          ["","","",""],
-          ["","","",""]
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ]
+          ,         
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ]
+          ,         
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ]
+          ,         
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ]
+          ,         
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ]
+          ,         
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ],         
+          [
+            "title","id","className","innerhtml","p",
+            "Text element elementchildNodes"
+          ],
+          
+          ["title","id","className","innerhtml","p"]
           
           ] , 
         "text":"Conception, développement"

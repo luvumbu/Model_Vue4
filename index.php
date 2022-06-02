@@ -44,6 +44,7 @@
 -->    
 <?php    
  include("model/class/php/Class.php");  
+ //include("json_active.php");
  // fichier configuration à l'interrieur 
  // contenue general de la page dans class\php\index_body.php 
  /*
