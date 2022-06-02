@@ -145,6 +145,9 @@ function body_link_fun(general_link,sourceX) {
  }
  
 
+
+ 
+
  function parent_syn_1(source_div,value) {
   // condition de fonctionnement si la variable est vrai 
   if(header_objet.header1.value==value){
