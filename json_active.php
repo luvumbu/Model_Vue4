@@ -18,7 +18,7 @@ let section_objet ;
 let footer_objet  ;
 // preparation des object a cloner 
  
-
+let array_test ;
 function body_link_fun(general_link,sourceX) { 
 
     var xhttp = new XMLHttpRequest();
@@ -59,7 +59,8 @@ function body_link_fun(general_link,sourceX) {
 
 
    
-    const myTimeout_1 = setTimeout(syn_fun,250);
+    
+ 
     /*
     const myTimeout_2 = setTimeout(section_syn,4000);
     const myTimeout_3 = setTimeout(footer_syn,4000);
@@ -67,17 +68,18 @@ function body_link_fun(general_link,sourceX) {
 
    // Action a executer apres synchronisation des fichier
  
- function syn_fun() {   
-
-  header_syn("demo");
+ function syn_fun() { 
+ parent_syn("demo",true);// synchronisation de la pache enfant et parent
+ children_syn("demo");// synchronisation de la pache enfant et parent
   // exemple 
   
  }
+ 
 
-
- function header_syn(source_div) {
-  console.log("INFO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!") ;  
-         document.getElementById(source_div).innerHTML=header_objet.header1.text ; 
+ function parent_syn(source_div,value) {
+  // condition de fonctionnement si la variable est vrai 
+  if(header_objet.header1.value==value){
+    document.getElementById(source_div).innerHTML=header_objet.header1.text ; 
          console.log(header_objet.header1.text) ; // information dans la premier table
          console.log(header_objet.header1.elementchildNodes[0][0]) ;
          document.getElementById(source_div).setAttribute("class",header_objet.header1.className) ;
@@ -86,57 +88,58 @@ function body_link_fun(general_link,sourceX) {
          document.getElementById(source_div).setAttribute("title",header_objet.header1.title) ;
          //header_objet.header1.id
          console.log(header_objet.header1.elementchildNodes[0][2]) ;
-         document.getElementById(source_div).setAttribute("id",header_objet.header1.id) ;         
+         document.getElementById(source_div).setAttribute("id",source_div) ;         
          //document.getElementById("demo").innerHTML = "I have changed!";         
          console.log(header_objet.header1.text) ; 
-         //header_objet.header1.className  
+         //header_objet.header1.className 
+  }
+ 
  }
- /*
- function section_syn() {   
- 
- console.log(section_objet) ;   
 
+ function children_syn(parent_id) {
+let quantite1= header_objet.header1.elementchildNodes.length ; 
+let quantite2= header_objet.header1.elementchildNodes[0].length ;  
+console.log(quantite1+" ; "+quantite2) ; 
+for(var i = 0 ;i<quantite1; i++ ){
+for(y =0 ; y<quantite2;y++){
+  
+  if(y==0){
+    console.log(header_objet.header1.elementchildNodes[i][y]) ; 
+    if(header_objet.header1.elementchildNodes[i][y]==true){
+         // Create an "li" node:
+
+                  const node = document.createElement(header_objet.header1.elementchildNodes[i][4]); // atribute
+                  const textnode = document.createTextNode(header_objet.header1.elementchildNodes[i][5]); //text
+                  node.setAttribute("id", header_objet.header1.elementchildNodes[i][2]); // id
+                  node.setAttribute("title", header_objet.header1.elementchildNodes[i][1]);// title                  
+                  node.setAttribute("class", header_objet.header1.elementchildNodes[i][3]);// class
+                  // donne un atribut
+                  // Create a text node:                  
+                  // Append the text node to the "li" node:
+                  node.appendChild(textnode);                 
+                  // Append the "li" node to the list:
+                  document.getElementById(parent_id).appendChild(node);
+        }
+  }
+} 
 }
 
-function footer_syn() {   
- 
- console.log(footer_objet) ;   
-
-}
-
-*/
+ }
 
 
 
- 
-
-
-
- 
-
-
-
-
-/*
-function header_total_fun_active() { 
-   
-    var para = document.createElement("p");
-    para.setAttribute("class", "democlass");
-para.innerHTML =  header_total.header1.Name_element;
-document.getElementById("header_0").appendChild(para);
-     
-}
-*/
-
-
-
-
- 
+ const myTimeout_1 = setTimeout(syn_fun,250);
 </script>
 <style>
   .democlass_deux_class{
     background-color: red;
     color:white ;
+    border:8px solid black ; 
+    padding: 50px;
+  }
+  .democlass_deux_class2{
+    background-color: blue;
+    color:yellow ;
     border:8px solid black ; 
     padding: 50px;
   }

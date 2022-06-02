@@ -1,7 +1,9 @@
 {  
     "header1":
     {
-       "title":"header_element", "id":"header_id" ,"className":"democlass_deux_class","innerhtml":"text default",
+       "title":"header_element", "id":"header_id" ,
+       "className":"democlass_deux_class","innerhtml":"text default",
+       "value":true,
        "setattribute":[
         ["id", "header_idtabbbbs"],
         ["class", ""],
@@ -17,40 +19,44 @@
         "elementchildNodes":[
   
           [
-            "title","id","className","innerhtml","p",
+            true,"title","monid","democlass_deux_class2","p",
             "Text element elementchildNodes"
           ]
           ,         
           [
-            "title","id","className","innerhtml","p",
+            false,"title","id","className","p",
             "Text element elementchildNodes"
           ]
           ,         
           [
-            "title","id","className","innerhtml","p",
+            false,"title","id","className","p",
             "Text element elementchildNodes"
           ]
           ,         
           [
-            "title","id","className","innerhtml","p",
+            false,"title","id","className","p",
             "Text element elementchildNodes"
           ]
           ,         
           [
-            "title","id","className","innerhtml","p",
+            false,"title","id","className","p",
             "Text element elementchildNodes"
           ]
           ,         
           [
-            "title","id","className","innerhtml","p",
+            false,"title","id","className","p",
             "Text element elementchildNodes"
           ],         
           [
-            "title","id","className","innerhtml","p",
+            false,"title","id","className","p",
             "Text element elementchildNodes"
           ],
           
-          ["title","id","className","innerhtml","p"]
+          [
+            false,"title","id","className","p",
+            "Text element elementchildNodes"
+          ]
+          
           
           ] , 
         "text":"Conception, développement"
