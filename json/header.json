@@ -1,9 +1,9 @@
 {  
     "header1":
     {
-       "title":"header_element", "id":"header_id" ,
+       "title":"header_element", "id":"header_id1" ,
        "className":"democlass_deux_class","innerhtml":"text default",
-       "value":false,
+       "value":true,
        "text":"Conception, développement",
        "setattribute":[
          
@@ -21,12 +21,12 @@
         "elementchildNodes":[
   
           [
-            false,"title","monid","democlass_deux_class2","p",
+            true,"title","monid","democlass_deux_class2","p",
             "Text element elementchildNodes"
           ]
           ,         
           [
-            false,"title","id","className","p",
+            true,"title","id","democlass_deux_class2","p",
             "Text element elementchildNodes"
           ]
           ,         
@@ -67,10 +67,10 @@
     ,
     "header2":
     {
-       "title":"header_element", "id":"header_id" ,
+       "title":"header_element", "id":"header_id2" ,
        "className":"democlass_deux_class","innerhtml":"text default",
        "value":true,
-       "text":"Conception, développement",
+       "text":"Conception, développement pourrie",
        "setattribute":[
         ["id", "header_idtabbbbs"],
         ["class", ""],
@@ -87,7 +87,7 @@
   
           [
             true,"title","monid","democlass_deux_class2","p",
-            "Text element elementchildNodes"
+            "Text element elementchildNodes HEADER n°02"
           ]
           ,         
           [
