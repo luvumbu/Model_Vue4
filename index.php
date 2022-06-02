@@ -90,6 +90,7 @@ if($config_==false){
 <div id="showcoords_position"></div>
  
  <script src="js.js"></script>
+ <script src="model/class/js/json_active.js"></script>
 
  
 </body>
