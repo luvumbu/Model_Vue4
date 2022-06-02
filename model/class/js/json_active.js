@@ -1,4 +1,3 @@
-
 const header ="header" ; 
 const section ="section" ; 
 const footer ="footer" ;  
@@ -62,82 +61,82 @@ function body_link_fun(general_link,sourceX) {
  
  function syn_fun() { 
  parent_syn_1("header_0",true);// synchronisation de la pache enfant et parent
- children_syn_1("header_0");// synchronisation de la pache enfant et parent
+ children_syn_1("header_0",true);// synchronisation de la pache enfant et parent
 
  parent_syn_2("app_section",true);// synchronisation de la pache enfant et parent
- children_syn_2("app_section");// synchronisation de la pache enfant et parent
+ children_syn_2("app_section",true);// synchronisation de la pache enfant et parent
 
  parent_syn_3("app_section3",true);// synchronisation de la pache enfant et parent
- children_syn_3("app_section3");// synchronisation de la pache enfant et parent
+ children_syn_3("app_section3",true);// synchronisation de la pache enfant et parent
 
  parent_syn_4("app_section4",true);// synchronisation de la pache enfant et parent
- children_syn_4("app_section4");// synchronisation de la pache enfant et parent
+ children_syn_4("app_section4",true);// synchronisation de la pache enfant et parent
 
  parent_syn_5("app_section5",true);// synchronisation de la pache enfant et parent
- children_syn_5("app_section5");// synchronisation de la pache enfant et parent
+ children_syn_5("app_section5",true);// synchronisation de la pache enfant et parent
 
  parent_syn_6("app_section6",true);// synchronisation de la pache enfant et parent
- children_syn_6("app_section6");// synchronisation de la pache enfant et parent
+ children_syn_6("app_section6",true);// synchronisation de la pache enfant et parent
  
 
  parent_syn_7("app_section7",true);// synchronisation de la pache enfant et parent
- children_syn_7("app_section7");// synchronisation de la pache enfant et parent
+ children_syn_7("app_section7",true);// synchronisation de la pache enfant et parent
 
  parent_syn_8("app_section8",true);// synchronisation de la pache enfant et parent
- children_syn_8("app_section8");// synchronisation de la pache enfant et parent
+ children_syn_8("app_section8",true);// synchronisation de la pache enfant et parent
 
  parent_syn_9("app_section9",true);// synchronisation de la pache enfant et parent
- children_syn_9("app_section9");// synchronisation de la pache enfant et parent
+ children_syn_9("app_section9",true);// synchronisation de la pache enfant et parent
 
  parent_syn_10("app_section10",true);// synchronisation de la pache enfant et parent
- children_syn_10("app_section10");// synchronisation de la pache enfant et parent
+ children_syn_10("app_section10",true);// synchronisation de la pache enfant et parent
 
  parent_syn_11("app_section11",true);// synchronisation de la pache enfant et parent
- children_syn_11("app_section11");// synchronisation de la pache enfant et parent
+ children_syn_11("app_section11",true);// synchronisation de la pache enfant et parent
 
  parent_syn_12("app_section12",true);// synchronisation de la pache enfant et parent
- children_syn_12("app_section12");// synchronisation de la pache enfant et parent
+ children_syn_12("app_section12",true);// synchronisation de la pache enfant et parent
 
  parent_syn_13("app_section13",true);// synchronisation de la pache enfant et parent
- children_syn_13("app_section13");// synchronisation de la pache enfant et parent
+ children_syn_13("app_section13",true);// synchronisation de la pache enfant et parent
 
  parent_syn_14("app_section14",true);// synchronisation de la pache enfant et parent
- children_syn_14("app_section14");// synchronisation de la pache enfant et parent
+ children_syn_14("app_section14",true);// synchronisation de la pache enfant et parent
 
  parent_syn_15("app_section15",true);// synchronisation de la pache enfant et parent
- children_syn_15("app_section15");// synchronisation de la pache enfant et parent
+ children_syn_15("app_section15",true);// synchronisation de la pache enfant et parent
 
  parent_syn_16("app_section16",true);// synchronisation de la pache enfant et parent
- children_syn_16("app_section16");// synchronisation de la pache enfant et parent
+ children_syn_16("app_section16",true);// synchronisation de la pache enfant et parent
 
  parent_syn_17("app_section17",true);// synchronisation de la pache enfant et parent
- children_syn_17("app_section17");// synchronisation de la pache enfant et parent
+ children_syn_17("app_section17",true);// synchronisation de la pache enfant et parent
 
  parent_syn_18("app_section18",true);// synchronisation de la pache enfant et parent
- children_syn_18("app_section18");// synchronisation de la pache enfant et parent
+ children_syn_18("app_section18",true);// synchronisation de la pache enfant et parent
 
  
 
  parent_syn_19("app_section19",true);// synchronisation de la pache enfant et parent
- children_syn_19("app_section19");// synchronisation de la pache enfant et parent
+ children_syn_19("app_section19",true);// synchronisation de la pache enfant et parent
 
  parent_syn_20("app_section20",true);// synchronisation de la pache enfant et parent
- children_syn_20("app_section20");// synchronisation de la pache enfant et parent
+ children_syn_20("app_section20",true);// synchronisation de la pache enfant et parent
 
  parent_syn_21("app_section21",true);// synchronisation de la pache enfant et parent
- children_syn_21("app_section21");// synchronisation de la pache enfant et parent
+ children_syn_21("app_section21",true);// synchronisation de la pache enfant et parent
 
  parent_syn_22("app_section22",true);// synchronisation de la pache enfant et parent
- children_syn_22("app_section22");// synchronisation de la pache enfant et parent
+ children_syn_22("app_section22",true);// synchronisation de la pache enfant et parent
 
  parent_syn_23("app_section23",true);// synchronisation de la pache enfant et parent
- children_syn_23("app_section23");// synchronisation de la pache enfant et parent
+ children_syn_23("app_section23",true);// synchronisation de la pache enfant et parent
 
  parent_syn_24("app_section24",true);// synchronisation de la pache enfant et parent
- children_syn_24("app_section24");// synchronisation de la pache enfant et parent
+ children_syn_24("app_section24",true);// synchronisation de la pache enfant et parent
 
  parent_syn_25("app_section25",true);// synchronisation de la pache enfant et parent
- children_syn_25("app_section25");// synchronisation de la pache enfant et parent
+ children_syn_25("app_section25",true);// synchronisation de la pache enfant et parent
 
  
  
@@ -166,7 +165,7 @@ function body_link_fun(general_link,sourceX) {
  
  }
 
- function children_syn_1(parent_id) {
+ function children_syn_1(parent_id,value) {
 let quantite1= header_objet.header1.elementchildNodes.length ; 
 let quantite2= header_objet.header1.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -175,7 +174,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header1.elementchildNodes[i][y]) ; 
-    if(header_objet.header1.elementchildNodes[i][y]==true){
+    if(header_objet.header1.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header1.elementchildNodes[i][4]); // atribute
@@ -217,7 +216,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_2(parent_id) {
+ function children_syn_2(parent_id,value) {
 let quantite1= header_objet.header2.elementchildNodes.length ; 
 let quantite2= header_objet.header2.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -226,7 +225,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header2.elementchildNodes[i][y]) ; 
-    if(header_objet.header2.elementchildNodes[i][y]==true){
+    if(header_objet.header2.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header2.elementchildNodes[i][4]); // atribute
@@ -267,7 +266,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_3(parent_id) {
+ function children_syn_3(parent_id,value) {
 let quantite1= header_objet.header3.elementchildNodes.length ; 
 let quantite2= header_objet.header3.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -276,7 +275,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header3.elementchildNodes[i][y]) ; 
-    if(header_objet.header3.elementchildNodes[i][y]==true){
+    if(header_objet.header3.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header3.elementchildNodes[i][4]); // atribute
@@ -317,7 +316,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_4(parent_id) {
+ function children_syn_4(parent_id,value) {
 let quantite1= header_objet.header4.elementchildNodes.length ; 
 let quantite2= header_objet.header4.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -326,7 +325,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header4.elementchildNodes[i][y]) ; 
-    if(header_objet.header4.elementchildNodes[i][y]==true){
+    if(header_objet.header4.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header4.elementchildNodes[i][4]); // atribute
@@ -366,7 +365,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_5(parent_id) {
+ function children_syn_5(parent_id,value) {
 let quantite1= header_objet.header5.elementchildNodes.length ; 
 let quantite2= header_objet.header5.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -375,7 +374,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header5.elementchildNodes[i][y]) ; 
-    if(header_objet.header5.elementchildNodes[i][y]==true){
+    if(header_objet.header5.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header5.elementchildNodes[i][4]); // atribute
@@ -415,7 +414,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_6(parent_id) {
+ function children_syn_6(parent_id,value) {
 let quantite1= header_objet.header6.elementchildNodes.length ; 
 let quantite2= header_objet.header6.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -424,7 +423,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header6.elementchildNodes[i][y]) ; 
-    if(header_objet.header6.elementchildNodes[i][y]==true){
+    if(header_objet.header6.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header6.elementchildNodes[i][4]); // atribute
@@ -464,7 +463,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_7(parent_id) {
+ function children_syn_7(parent_id,value) {
 let quantite1= header_objet.header7.elementchildNodes.length ; 
 let quantite2= header_objet.header7.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -473,7 +472,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header7.elementchildNodes[i][y]) ; 
-    if(header_objet.header7.elementchildNodes[i][y]==true){
+    if(header_objet.header7.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header7.elementchildNodes[i][4]); // atribute
@@ -513,7 +512,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_8(parent_id) {
+ function children_syn_8(parent_id,value) {
 let quantite1= header_objet.header8.elementchildNodes.length ; 
 let quantite2= header_objet.header8.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -522,7 +521,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header8.elementchildNodes[i][y]) ; 
-    if(header_objet.header8.elementchildNodes[i][y]==true){
+    if(header_objet.header8.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header8.elementchildNodes[i][4]); // atribute
@@ -562,7 +561,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_9(parent_id) {
+ function children_syn_9(parent_id,value) {
 let quantite1= header_objet.header9.elementchildNodes.length ; 
 let quantite2= header_objet.header9.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -571,7 +570,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header9.elementchildNodes[i][y]) ; 
-    if(header_objet.header9.elementchildNodes[i][y]==true){
+    if(header_objet.header9.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header9.elementchildNodes[i][4]); // atribute
@@ -611,7 +610,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_10(parent_id) {
+ function children_syn_10(parent_id,value) {
 let quantite1= header_objet.header10.elementchildNodes.length ; 
 let quantite2= header_objet.header10.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -620,7 +619,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header10.elementchildNodes[i][y]) ; 
-    if(header_objet.header10.elementchildNodes[i][y]==true){
+    if(header_objet.header10.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header10.elementchildNodes[i][4]); // atribute
@@ -660,7 +659,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_11(parent_id) {
+ function children_syn_11(parent_id,value) {
 let quantite1= header_objet.header11.elementchildNodes.length ; 
 let quantite2= header_objet.header11.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -669,7 +668,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header11.elementchildNodes[i][y]) ; 
-    if(header_objet.header11.elementchildNodes[i][y]==true){
+    if(header_objet.header11.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header11.elementchildNodes[i][4]); // atribute
@@ -709,7 +708,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_12(parent_id) {
+ function children_syn_12(parent_id,value) {
 let quantite1= header_objet.header12.elementchildNodes.length ; 
 let quantite2= header_objet.header12.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -718,7 +717,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header12.elementchildNodes[i][y]) ; 
-    if(header_objet.header12.elementchildNodes[i][y]==true){
+    if(header_objet.header12.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header12.elementchildNodes[i][4]); // atribute
@@ -758,7 +757,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_13(parent_id) {
+ function children_syn_13(parent_id,value) {
 let quantite1= header_objet.header13.elementchildNodes.length ; 
 let quantite2= header_objet.header13.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -767,7 +766,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header13.elementchildNodes[i][y]) ; 
-    if(header_objet.header13.elementchildNodes[i][y]==true){
+    if(header_objet.header13.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header13.elementchildNodes[i][4]); // atribute
@@ -807,7 +806,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_14(parent_id) {
+ function children_syn_14(parent_id,value) {
 let quantite1= header_objet.header14.elementchildNodes.length ; 
 let quantite2= header_objet.header14.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -816,7 +815,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header14.elementchildNodes[i][y]) ; 
-    if(header_objet.header14.elementchildNodes[i][y]==true){
+    if(header_objet.header14.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header14.elementchildNodes[i][4]); // atribute
@@ -856,7 +855,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_15(parent_id) {
+ function children_syn_15(parent_id,value) {
 let quantite1= header_objet.header15.elementchildNodes.length ; 
 let quantite2= header_objet.header15.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -865,7 +864,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header15.elementchildNodes[i][y]) ; 
-    if(header_objet.header15.elementchildNodes[i][y]==true){
+    if(header_objet.header15.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header15.elementchildNodes[i][4]); // atribute
@@ -905,7 +904,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_16(parent_id) {
+ function children_syn_16(parent_id,value) {
 let quantite1= header_objet.header16.elementchildNodes.length ; 
 let quantite2= header_objet.header16.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -914,7 +913,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header16.elementchildNodes[i][y]) ; 
-    if(header_objet.header16.elementchildNodes[i][y]==true){
+    if(header_objet.header16.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header16.elementchildNodes[i][4]); // atribute
@@ -954,7 +953,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_17(parent_id) {
+ function children_syn_17(parent_id,value) {
 let quantite1= header_objet.header17.elementchildNodes.length ; 
 let quantite2= header_objet.header17.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -963,7 +962,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header17.elementchildNodes[i][y]) ; 
-    if(header_objet.header17.elementchildNodes[i][y]==true){
+    if(header_objet.header17.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header17.elementchildNodes[i][4]); // atribute
@@ -1003,7 +1002,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_18(parent_id) {
+ function children_syn_18(parent_id,value) {
 let quantite1= header_objet.header18.elementchildNodes.length ; 
 let quantite2= header_objet.header18.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1012,7 +1011,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header18.elementchildNodes[i][y]) ; 
-    if(header_objet.header18.elementchildNodes[i][y]==true){
+    if(header_objet.header18.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header18.elementchildNodes[i][4]); // atribute
@@ -1052,7 +1051,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_19(parent_id) {
+ function children_syn_19(parent_id,value) {
 let quantite1= header_objet.header19.elementchildNodes.length ; 
 let quantite2= header_objet.header19.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1061,7 +1060,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header19.elementchildNodes[i][y]) ; 
-    if(header_objet.header19.elementchildNodes[i][y]==true){
+    if(header_objet.header19.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header19.elementchildNodes[i][4]); // atribute
@@ -1101,7 +1100,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_20(parent_id) {
+ function children_syn_20(parent_id,value) {
 let quantite1= header_objet.header20.elementchildNodes.length ; 
 let quantite2= header_objet.header20.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1110,7 +1109,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header20.elementchildNodes[i][y]) ; 
-    if(header_objet.header20.elementchildNodes[i][y]==true){
+    if(header_objet.header20.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header20.elementchildNodes[i][4]); // atribute
@@ -1150,7 +1149,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_21(parent_id) {
+ function children_syn_21(parent_id,value) {
 let quantite1= header_objet.header21.elementchildNodes.length ; 
 let quantite2= header_objet.header21.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1159,7 +1158,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header21.elementchildNodes[i][y]) ; 
-    if(header_objet.header21.elementchildNodes[i][y]==true){
+    if(header_objet.header21.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header21.elementchildNodes[i][4]); // atribute
@@ -1199,7 +1198,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_22(parent_id) {
+ function children_syn_22(parent_id,value) {
 let quantite1= header_objet.header22.elementchildNodes.length ; 
 let quantite2= header_objet.header22.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1208,7 +1207,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header22.elementchildNodes[i][y]) ; 
-    if(header_objet.header22.elementchildNodes[i][y]==true){
+    if(header_objet.header22.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header22.elementchildNodes[i][4]); // atribute
@@ -1248,7 +1247,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_23(parent_id) {
+ function children_syn_23(parent_id,value) {
 let quantite1= header_objet.header23.elementchildNodes.length ; 
 let quantite2= header_objet.header23.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1257,7 +1256,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header23.elementchildNodes[i][y]) ; 
-    if(header_objet.header23.elementchildNodes[i][y]==true){
+    if(header_objet.header23.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header23.elementchildNodes[i][4]); // atribute
@@ -1297,7 +1296,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_24(parent_id) {
+ function children_syn_24(parent_id,value) {
 let quantite1= header_objet.header24.elementchildNodes.length ; 
 let quantite2= header_objet.header24.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1306,7 +1305,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header24.elementchildNodes[i][y]) ; 
-    if(header_objet.header24.elementchildNodes[i][y]==true){
+    if(header_objet.header24.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header24.elementchildNodes[i][4]); // atribute
@@ -1346,7 +1345,7 @@ for(y =0 ; y<quantite2;y++){
  
  }
 
- function children_syn_25(parent_id) {
+ function children_syn_25(parent_id,value) {
 let quantite1= header_objet.header25.elementchildNodes.length ; 
 let quantite2= header_objet.header25.elementchildNodes[0].length ;  
 console.log(quantite1+" ; "+quantite2) ; 
@@ -1355,7 +1354,7 @@ for(y =0 ; y<quantite2;y++){
   
   if(y==0){
     console.log(header_objet.header25.elementchildNodes[i][y]) ; 
-    if(header_objet.header25.elementchildNodes[i][y]==true){
+    if(header_objet.header25.elementchildNodes[i][y]==value){
          // Create an "li" node:
 
                   const node = document.createElement(header_objet.header25.elementchildNodes[i][4]); // atribute
@@ -1375,10 +1374,6 @@ for(y =0 ; y<quantite2;y++){
 }
 
  }
-
-
-
-
 
 
  const myTimeout_1 = setTimeout(syn_fun,250);
