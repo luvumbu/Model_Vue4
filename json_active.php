@@ -1,107 +1,120 @@
-<!DOCTYPE html>
-<html>
-<body>
-
- 
-
-<div id="myDIV" style="padding:16px;background-color:lightgray">
-
- 
 <script>
 
-document.getElementById("app_section").innerhtml ="test" ; 
- var dit="" ; 
+const header ="header" ; 
+const section ="section" ; 
+const footer ="footer" ;  
 
- var header_total =""; 
- var section_total =""; 
- var footer_total =""; 
+const header_link ="json/header.json";
+// liens vers fichier Json 
+const section_link ="json/section.json";
+// liens vers fichier Json 
+const footer_link  ="json/footer.json";
+// liens vers fichier Json 
 
-
+let header_objet  ;
+// preparation des object a cloner 
+let section_objet ;
+// preparation des object a cloner 
+let footer_objet  ;
+// preparation des object a cloner 
  
 
-function header_total_fun(link) {
-  var xhttp = new XMLHttpRequest();
+function body_link_fun(general_link,sourceX) { 
+
+    var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
      
         text= this.responseText;   
       const myArr = JSON.parse(text);
- //dit = myArr.header1[0].Name_element ;   
- header_total = myArr; 
-  
+ //dit = myArr.header1.Name_element ;
+
+ switch(sourceX) {
+  case "header":
+    header_objet = myArr; 
+    // clonage de l'objet dans une variable exterieur
+    break;
+  case "section":
+    section_objet = myArr; 
+    // clonage de l'objet dans une variable exterieur
+    break;
+    case "footer":
+    footer_objet = myArr; 
+    // clonage de l'objet dans une variable exterieur
+    break;
+  default:
+    // code block
+}
+ 
     }
   };
-  xhttp.open("GET", link, true);
- 
+  xhttp.open("GET", general_link, true); 
  // xhttp.open("GET", "json/header.json", true);
   xhttp.send();
-}
-function section_total_fun(link) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     
-        text= this.responseText;   
-      const myArr = JSON.parse(text);
- //dit = myArr.section1[0].Name_element ;   
- section_total = myArr; 
-  
-    }
-  };
-  xhttp.open("GET", link, true);
  
- // xhttp.open("GET", "json/section.json", true);
-  xhttp.send();
 }
-function footer_total_fun(link) {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     
-        text= this.responseText;   
-      const myArr = JSON.parse(text);
- //dit = myArr.footer1[0].Name_element ;   
- footer_total = myArr; 
-  
-    }
-  };
-  xhttp.open("GET", link, true);
+    body_link_fun("json/header.json",header) ; 
+    body_link_fun("json/section.json",section) ; 
+    body_link_fun("json/footer.json",footer) ; 
+   
+    const myTimeout_1 = setTimeout(synchronisation_fun_obj,250);
  
- // xhttp.open("GET", "json/footer.json", true);
-  xhttp.send();
-}
+
+   // Action a executer apres synchronisation des fichier
+ 
+ function synchronisation_fun_obj() { 
+
+  
+   console.log("<header") ; 
+          console.log(header_objet) ; 
+  console.log(">") ; 
+   console.log("<section") ; 
+  console.log(section_objet) ;  
+   console.log(">") ;
+      console.log("<footer") ; 
+  console.log(footer_objet) ;   
+  console.log(">") ;
+  console.log("XXXXXXXXXXXXXXXXXXXXXxxxx") ; 
+
+ 
+   
+  
+ }
+ 
 
 
 
 
+ 
+
+
+
+ 
 
 
 
 
-header_total_fun("json/header.json") ; 
-section_total_fun("json/section.json") ; 
-footer_total_fun("json/footer.json") ; 
-
-
-
-
-const myTimeout_1 = setTimeout(header_total_fun_active,250);
-const myTimeout_2 = setTimeout(section_total_fun_active,250);
-const myTimeout_3 = setTimeout(footer_total_fun_active,250);
-
-
-
+/*
 function header_total_fun_active() { 
-    console.log( header_total.header1[0].Name_element +'1 ???') ; 
+   
+    var para = document.createElement("p");
+    para.setAttribute("class", "democlass");
+para.innerHTML =  header_total.header1.Name_element;
+document.getElementById("header_0").appendChild(para);
+     
 }
-function section_total_fun_active() { 
-    console.log( section_total.section1[0].Name_element +'2 ???') ; 
-}
-function footer_total_fun_active() { 
-    console.log( footer_total.footer1[0].Name_element +'3 ???') ; 
-}
+*/
+
+
+
+
  
 </script>
-
+<style>
+  .democlass{
+    background-color: black;
+    color:white ;
+  }
+</style>
 </body>
 </html>

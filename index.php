@@ -87,13 +87,7 @@ if($config_==false){
  } 
 ?>
 <div id="showcoords_position"></div>
-<style>
-  #showcoords_position{
-   
  
-  }
-
-</style>
  <script src="js.js"></script>
 
  
