@@ -1,108 +1,428 @@
 {
-    "footer1":[
-    { "Name_element":"Name_element_footer", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
+  
+  "footer1":
+  {
+     "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+     "info_general":[
+      ["id", ""],
+      ["class", ""],
+      ["onmousedown", ""],
+      ["onmouseenter", ""],
+      ["onmouseleave", ""],
+      ["onmousemove", ""],
 
 
-  ,
-  "footer2":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer3":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer4":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer5":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer6":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer7":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer8":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer9":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-  ,
-  "footer10":[
-    { "Name_element":"", "lastName":"" },   
-    { "Attribute":"", "lastName":"" },
-    { "Event_Attributes":"", "lastName":"" },
-    { "Color_Names":"", "lastName":"" },
-    { "Class_Names":"", "lastName":"" },
-    { "id_Names":"", "lastName":"" }, 
-    { "Attribute":"", "lastName":"" }
-  ]
-   
+      ["onmouseover", ""],
+      ["onoffline", ""],
+      ["ononline", ""],
+      ["onpaste", ""]
+      ] , 
+      "text":"Conception, développement"
+
+  }
  
+
+,
+"footer2":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
 }
 
 
-   
+,    "footer3":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer4":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer5":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer6":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer7":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer8":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer9":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer10":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer11":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+
+,    "footer12":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+
+,    "footer13":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer14":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer15":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer16":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer17":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer18":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer19":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+,    "footer20":
+{
+ "title":"Name_element", "id":"" ,"className":"","onclcik":"",
+ "info_general":[
+  ["id", ""],
+  ["class", ""],
+  ["onmousedown", ""],
+  ["onmouseenter", ""],
+  ["onmouseleave", ""],
+  ["onmousemove", ""],
+
+
+  ["onmouseover", ""],
+  ["onoffline", ""],
+  ["ononline", ""],
+  ["onpaste", ""]
+  ] , 
+  "text":"Conception, développement"
+
+}
+}
+ 
