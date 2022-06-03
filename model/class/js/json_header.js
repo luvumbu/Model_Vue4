@@ -1653,7 +1653,7 @@ for(y =0 ; y<quantite2;y++){
 
  
 
- const activation_total = setTimeout(syn_fun,250);
+ const header_activation_total = setTimeout(syn_fun,250);
  
  
   
