@@ -55,7 +55,7 @@ var source_id_parent = "app_footer_0" ;
 
 function syn_fun() { 
 
-action_footer_0("app_footer_0",false,false) ; 
+action_footer_0("app_footer_0",true,true) ; 
 action_footer_1("app_footer_1",true,true) ; 
 action_footer_2("app_footer_2",true,true) ; 
 action_footer_3("app_footer_3",true,true) ; 
