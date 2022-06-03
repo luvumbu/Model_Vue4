@@ -1,11 +1,15 @@
 {  
   "footer1":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
+       
       ["id", "footer_idtabbbbs"],
       ["class", ""],
       ["onmousedown", ""],
@@ -20,12 +24,12 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
         [
-          false,"title","id","className","p",
+          false,"title","id","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -66,9 +70,12 @@
   ,
   "footer2":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -85,8 +92,8 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
-          "Text element elementchildNodes"
+          false,"title","monid","democlass_deux_class2","p",
+          "Text element elementchildNodes footer n°02"
         ]
         ,         
         [
@@ -131,9 +138,12 @@
   ,
   "footer3":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -150,7 +160,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -196,9 +206,12 @@
   ,
   "footer4":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -215,7 +228,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -261,9 +274,12 @@
   ,
   "footer5":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -280,7 +296,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -326,9 +342,12 @@
   ,
   "footer6":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -345,7 +364,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -391,9 +410,12 @@
   ,
   "footer7":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -410,7 +432,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -456,9 +478,12 @@
   ,
   "footer8":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -475,7 +500,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -521,9 +546,12 @@
   ,
   "footer9":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -540,7 +568,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -586,9 +614,12 @@
   ,
   "footer10":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -605,7 +636,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -651,9 +682,12 @@
   ,
   "footer11":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -670,7 +704,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -716,9 +750,12 @@
   ,
   "footer12":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -735,7 +772,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -781,9 +818,12 @@
   ,
   "footer13":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -800,7 +840,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -846,9 +886,12 @@
   ,
   "footer14":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -865,7 +908,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -911,9 +954,12 @@
   ,
   "footer15":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -930,7 +976,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -976,9 +1022,12 @@
   ,
   "footer16":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -995,7 +1044,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1041,9 +1090,12 @@
   ,
   "footer17":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1060,7 +1112,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1106,9 +1158,12 @@
   ,
   "footer18":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1125,7 +1180,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1171,9 +1226,12 @@
   ,
   "footer19":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1190,7 +1248,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1236,9 +1294,12 @@
   ,
   "footer20":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1255,7 +1316,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1301,9 +1362,12 @@
   ,
   "footer21":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1320,7 +1384,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1366,9 +1430,12 @@
   ,
   "footer22":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1385,7 +1452,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1431,9 +1498,12 @@
   ,
   "footer23":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1450,7 +1520,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1496,9 +1566,12 @@
   ,
   "footer24":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1515,7 +1588,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1560,9 +1633,12 @@
 
   ,    "footer25":
   {
-     "title":"footer_element", "id":"footer_id" ,
-     "className":"democlass_deux_class","innerhtml":"text default",
-     "value":true,
+    "value":false,
+    "title":"footer_element",
+    "id":"footer_id1" ,
+    "className":"democlass_deux_class",
+    "innerhtml":"text default",
+    "setattribute_simple":"",       
      "text":"Conception, développement",
      "setattribute":[
       ["id", "footer_idtabbbbs"],
@@ -1579,7 +1655,7 @@
       "elementchildNodes":[
 
         [
-          true,"title","monid","democlass_deux_class2","p",
+          false,"title","monid","democlass_deux_class2","p",
           "Text element elementchildNodes"
         ]
         ,         
@@ -1621,10 +1697,5 @@
         ] 
      
   }
-
-  
-
-
-
 }
  
