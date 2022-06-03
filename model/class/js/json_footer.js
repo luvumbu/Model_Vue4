@@ -95,12 +95,6 @@ action_footer_25("app_footer_25",true,true) ;
  
 }
 
-
-
-
-
-
-
 /**
 * 
 bool_parent = lutilisateur donne une valeur vrai ou fausse le parametre doit avoir le meme bool que le fichier json pour
@@ -1647,12 +1641,6 @@ if(y==0){
 
 
 }
-
-
-
-
-
-
 const footer_activation_total = setTimeout(syn_fun,250);
 
 
