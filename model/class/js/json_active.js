@@ -63,9 +63,11 @@ function body_link_fun(general_link,sourceX) {
  parent_syn_1("header_0",true);// synchronisation de la pache enfant et parent
  children_syn_1("header_0",true);// synchronisation de la pache enfant et parent
 
- parent_syn_2("app_section",true);// synchronisation de la pache enfant et parent
- children_syn_2("app_section",true);// synchronisation de la pache enfant et parent
-
+ parent_syn_2("app_section1",true);// synchronisation de la pache enfant et parent
+ children_syn_2("app_section1",true);// synchronisation de la pache enfant et parent
+ parent_syn_2("app_section2",true);// synchronisation de la pache enfant et parent
+ children_syn_2("app_section2",true);// synchronisation de la pache enfant et parent
+ 
  parent_syn_3("app_section3",true);// synchronisation de la pache enfant et parent
  children_syn_3("app_section3",true);// synchronisation de la pache enfant et parent
 
